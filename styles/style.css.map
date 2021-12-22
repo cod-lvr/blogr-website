@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,iHAAI",
+    "sources": [
+        "style.scss",
+        "_variables.scss",
+        "_roots.scss",
+        "_main-hero.scss",
+        "_main-nav.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
