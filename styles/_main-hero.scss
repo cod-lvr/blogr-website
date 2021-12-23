@@ -1,0 +1,27 @@
+main {
+  #hero {
+    padding: 2rem 1rem;
+    background-image: url(/images/bg-pattern-intro-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $Very-light-red;
+    height: 70vh;
+    clip-path: polygon(
+      100% 0%,
+      78% 0%,
+      73% 0%,
+      0% 0%,
+      0% 25%,
+      0% 61%,
+      10% 75%,
+      25% 90%,
+      40% 100%,
+      61% 100%,
+      78% 100%,
+      100% 100%,
+      100% 47%,
+      100% 25%
+    );
+  }
+}
