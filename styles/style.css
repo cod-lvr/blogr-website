@@ -5,17 +5,204 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 16px;
+  width: 100vw;
+  font-family: "Overpass", sans-serif;
+}
+
+.prim-btn {
+  padding: 0.88rem 1rem;
+  border: 0;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  color: #ff3d54;
+}
+
+.sec-btn {
+  padding: 0.88rem 1rem;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: "Overpass", sans-serif;
+  font-weight: bold;
+  color: white;
+  background: transparent;
 }
 
 main #hero {
   padding: 2rem 1rem;
-  background-image: url(/images/bg-pattern-intro-mobile.svg);
+  background-image: url(/images/bg/mob-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #ff8f70;
-  height: 70vh;
-  -webkit-clip-path: polygon(100% 0%, 78% 0%, 73% 0%, 0% 0%, 0% 25%, 0% 61%, 10% 75%, 25% 90%, 40% 100%, 61% 100%, 78% 100%, 100% 100%, 100% 47%, 100% 25%);
-          clip-path: polygon(100% 0%, 78% 0%, 73% 0%, 0% 0%, 0% 25%, 0% 61%, 10% 75%, 25% 90%, 40% 100%, 61% 100%, 78% 100%, 100% 100%, 100% 47%, 100% 25%);
+  height: 80vh;
+  margin-bottom: -10px;
+}
+
+main #hero .content-box {
+  text-align: center;
+  margin: 5rem auto;
+  padding: 0 1.7rem;
+  color: white;
+  font-family: "Overpass", sans-serif;
+}
+
+main #hero .content-box h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+main #hero .content-box p {
+  font-size: 1.31rem;
+}
+
+main #hero .content-box .btn-box {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #hero nav {
+  padding: 1.5rem 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #hero nav .left-nav .logo {
+  width: 80%;
+  cursor: pointer;
+}
+
+main #hero nav .left-nav .logo img {
+  width: 100%;
+}
+
+main #hero nav .left-nav .nav-links {
+  display: none;
+}
+
+main #hero nav .right-nav {
+  display: none;
+}
+
+main #about {
+  padding: 1rem 0;
+  text-align: center;
+  margin: 2rem 0;
+}
+
+main #about .title {
+  color: #1f3f5b;
+  padding: 1rem 0;
+}
+
+main #about .cont .photog {
+  margin-left: -1rem;
+}
+
+.cont {
+  text-align: center;
+}
+
+.cont .photog {
+  margin-left: -4rem;
+}
+
+.cont .content-boxs {
+  padding: 1rem 1.6rem;
+}
+
+.cont .content-boxs .box {
+  padding: 1rem 0;
+}
+
+.cont .content-boxs .box h3 {
+  color: #1f3f5b;
+  font-size: 1.7rem;
+  width: 80%;
+  margin: auto;
+}
+
+.cont .content-boxs .box p {
+  color: #4b5862;
+  line-height: 1.8rem;
+}
+
+main #state {
+  background-image: url(/images/bg/mob-state.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+main #state .content-box {
+  position: absolute;
+  top: 50%;
+  color: white;
+  text-align: center;
+}
+
+main #state .content-box h2 {
+  font-size: 2rem;
+}
+
+main #state .content-box p {
+  line-height: 1.8rem;
+  width: 80%;
+  margin: auto;
+}
+
+footer {
+  background-image: url(/images/bg/mob-footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: white;
+  padding: 3rem 0 1rem;
+}
+
+footer .footer-img {
+  width: 25%;
+  margin: 4rem auto;
+}
+
+footer .footer-img img {
+  width: 100%;
+}
+
+footer .list {
+  margin: 3rem 0;
+}
+
+footer .list h4 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+footer .list p {
+  color: #c8c8cb;
 }
 /*# sourceMappingURL=style.css.map */

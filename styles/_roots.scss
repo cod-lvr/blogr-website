@@ -3,4 +3,26 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-size: $f-size;
+  width: 100vw;
+  font-family: $f-Overpass;
+}
+
+.prim-btn {
+  padding: 0.88rem 1rem;
+  border: 0;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: $f-Overpass;
+  font-weight: bold;
+  color: $Light-red;
+}
+.sec-btn {
+  padding: 0.88rem 1rem;
+  border: 1px solid $White;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-family: $f-Overpass;
+  font-weight: bold;
+  color: $White;
+  background: transparent;
 }

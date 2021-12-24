@@ -1,0 +1,25 @@
+main {
+  #hero {
+    nav {
+      padding: 1.5rem 0.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left-nav {
+        .logo {
+          width: 80%;
+          cursor: pointer;
+          img {
+            width: 100%;
+          }
+        }
+        .nav-links {
+          display: none;
+        }
+      }
+      .right-nav {
+        display: none;
+      }
+    }
+  }
+}

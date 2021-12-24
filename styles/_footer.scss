@@ -1,0 +1,27 @@
+footer {
+  background-image: url(/images/bg/mob-footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: $White;
+  padding: 3rem 0 1rem;
+  .footer-img {
+    width: 25%;
+    margin: 4rem auto;
+    img {
+      width: 100%;
+    }
+  }
+  .list {
+    margin: 3rem 0;
+    h4 {
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+    p {
+      color: $Grayish-blue;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+main {
+  #about {
+    padding: 1rem 0;
+    text-align: center;
+    margin: 2rem 0;
+    .title {
+      color: $Very-dark-blue;
+      padding: 1rem 0;
+    }
+    .cont {
+      .photog {
+        margin-left: -1rem;
+      }
+    }
+  }
+}
+.cont {
+  text-align: center;
+  .photog {
+    margin-left: -4rem;
+    width: 80%;
+    img {
+      width: 100%;
+    }
+  }
+  .content-boxs {
+    padding: 1rem 1.6rem;
+    .box {
+      padding: 1rem 0;
+      h3 {
+        color: $Very-dark-blue;
+        font-size: 1.7rem;
+        width: 80%;
+        margin: auto;
+      }
+      p {
+        color: $Very-dark-grayish-blue;
+        line-height: 1.8rem;
+      }
+    }
+  }
+}

@@ -1,27 +1,33 @@
 main {
   #hero {
     padding: 2rem 1rem;
-    background-image: url(/images/bg-pattern-intro-mobile.svg);
+    background-image: url(/images/bg/mob-hero.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $Very-light-red;
-    height: 70vh;
-    clip-path: polygon(
-      100% 0%,
-      78% 0%,
-      73% 0%,
-      0% 0%,
-      0% 25%,
-      0% 61%,
-      10% 75%,
-      25% 90%,
-      40% 100%,
-      61% 100%,
-      78% 100%,
-      100% 100%,
-      100% 47%,
-      100% 25%
-    );
+    height: 80vh;
+    margin-bottom: -10px;
+    .content-box {
+      text-align: center;
+      margin: 5rem auto;
+      padding: 0 1.7rem;
+      color: $White;
+      font-family: $f-Overpass;
+      h1 {
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      p {
+        font-size: 1.31rem;
+      }
+      .btn-box {
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
   }
 }
