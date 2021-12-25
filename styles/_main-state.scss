@@ -20,5 +20,18 @@ main {
         margin: auto;
       }
     }
+    @media (min-width: 1440px) {
+      background-image: url(/images/bg/mob-state.png);
+      height: 70vh;
+      .content-box {
+        top: 20%;
+        right: 0%;
+        left: 50%;
+        text-align: left;
+        p {
+          margin: 0;
+        }
+      }
+    }
   }
 }

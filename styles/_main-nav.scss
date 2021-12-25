@@ -20,6 +20,18 @@ main {
       .right-nav {
         display: none;
       }
+      @media (min-width: 1440px) {
+        justify-content: space-around;
+        .humburger {
+          display: none;
+        }
+        .nav-links {
+          display: inline-block;
+        }
+        .left-nav {
+          display: inline-block;
+        }
+      }
     }
   }
 }

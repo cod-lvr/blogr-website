@@ -74,6 +74,40 @@ main #hero .content-box .btn-box {
           align-items: center;
 }
 
+@media (min-width: 1440px) {
+  main #hero {
+    padding: 2rem 4rem;
+    background-image: url(/images/bg/mob-hero.png);
+    height: 40vh;
+    width: 100vw;
+  }
+  main #hero .content-box h1 {
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  main #hero .content-box p {
+    font-size: 1.4rem;
+  }
+  main #hero .content-box .btn-box {
+    width: 20%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  main .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 main #hero nav {
   padding: 1.5rem 0.5rem;
   display: -webkit-box;
@@ -104,6 +138,22 @@ main #hero nav .right-nav {
   display: none;
 }
 
+@media (min-width: 1440px) {
+  main #hero nav {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  main #hero nav .humburger {
+    display: none;
+  }
+  main #hero nav .nav-links {
+    display: inline-block;
+  }
+  main #hero nav .left-nav {
+    display: inline-block;
+  }
+}
+
 main #about {
   padding: 1rem 0;
   text-align: center;
@@ -115,8 +165,15 @@ main #about .title {
   padding: 1rem 0;
 }
 
-main #about .cont .photog {
-  margin-left: -1rem;
+@media (min-width: 1440px) {
+  main #about {
+    height: 80vh;
+  }
+  main #about .title {
+    font-size: 1.3rem;
+    padding: 0;
+    margin-top: 20px;
+  }
 }
 
 .cont {
@@ -124,7 +181,11 @@ main #about .cont .photog {
 }
 
 .cont .photog {
-  margin-left: -4rem;
+  width: 100%;
+}
+
+.cont .photog img {
+  width: 100%;
 }
 
 .cont .content-boxs {
@@ -145,6 +206,35 @@ main #about .cont .photog {
 .cont .content-boxs .box p {
   color: #4b5862;
   line-height: 1.8rem;
+}
+
+@media (min-width: 1440px) {
+  .cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 80vh;
+  }
+  .cont .content-boxs {
+    width: 80%;
+    padding: 0 4rem;
+    margin-top: -20px;
+  }
+  .cont .content-boxs .box {
+    text-align: left;
+  }
+  .cont .content-boxs .box h3 {
+    margin: 0;
+  }
 }
 
 main #state {
@@ -173,6 +263,22 @@ main #state .content-box p {
   margin: auto;
 }
 
+@media (min-width: 1440px) {
+  main #state {
+    background-image: url(/images/bg/mob-state.png);
+    height: 70vh;
+  }
+  main #state .content-box {
+    top: 20%;
+    right: 0%;
+    left: 50%;
+    text-align: left;
+  }
+  main #state .content-box p {
+    margin: 0;
+  }
+}
+
 footer {
   background-image: url(/images/bg/mob-footer.png);
   background-position: center;
@@ -181,7 +287,7 @@ footer {
   height: 100vh;
   text-align: center;
   color: white;
-  padding: 3rem 0 1rem;
+  padding: 3rem 0 2rem;
 }
 
 footer .footer-img {
@@ -204,5 +310,48 @@ footer .list h4 {
 
 footer .list p {
   color: #c8c8cb;
+}
+
+@media (min-width: 1440px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 4rem;
+    height: 50%;
+  }
+  footer .footer-img {
+    margin: 0;
+    width: 10%;
+  }
+  footer .footer-lists {
+    width: 80%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  footer .footer-lists .list {
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
