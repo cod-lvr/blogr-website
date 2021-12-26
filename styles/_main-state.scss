@@ -21,10 +21,13 @@ main {
       }
     }
     @media (min-width: 1440px) {
-      background-image: url(/images/bg/mob-state.png);
+      background-image: url(/images/bg/desjtop-state.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
       height: 70vh;
       .content-box {
-        top: 20%;
+        top: 35%;
         right: 0%;
         left: 50%;
         text-align: left;

@@ -25,6 +25,10 @@ footer {
     }
   }
   @media (min-width: 1440px) {
+    background-image: url(/images/bg/desktop-footer.png);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

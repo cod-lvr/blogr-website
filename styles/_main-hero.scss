@@ -31,8 +31,9 @@ main {
     }
     @media (min-width: 1440px) {
       padding: 2rem 4rem;
-      background-image: url(/images/bg/mob-hero.png);
-      height: 40vh;
+      background-image: url(/images/bg/desktop-intro.png);
+      background-position: bottom;
+      height: 50vh;
       width: 100vw;
       .content-box {
         h1 {

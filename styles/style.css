@@ -77,8 +77,9 @@ main #hero .content-box .btn-box {
 @media (min-width: 1440px) {
   main #hero {
     padding: 2rem 4rem;
-    background-image: url(/images/bg/mob-hero.png);
-    height: 40vh;
+    background-image: url(/images/bg/desktop-intro.png);
+    background-position: bottom;
+    height: 50vh;
     width: 100vw;
   }
   main #hero .content-box h1 {
@@ -265,11 +266,14 @@ main #state .content-box p {
 
 @media (min-width: 1440px) {
   main #state {
-    background-image: url(/images/bg/mob-state.png);
+    background-image: url(/images/bg/desjtop-state.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 70vh;
   }
   main #state .content-box {
-    top: 20%;
+    top: 35%;
     right: 0%;
     left: 50%;
     text-align: left;
@@ -314,6 +318,10 @@ footer .list p {
 
 @media (min-width: 1440px) {
   footer {
+    background-image: url(/images/bg/desktop-footer.png);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
