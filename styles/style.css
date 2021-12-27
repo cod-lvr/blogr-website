@@ -140,18 +140,37 @@ main #hero nav .right-nav {
 }
 
 @media (min-width: 1440px) {
-  main #hero nav {
+  main #hero nav .left-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main #hero nav .left-nav .logo {
+    width: 80%;
+    cursor: pointer;
+  }
+  main #hero nav .left-nav .logo img {
+    width: 100%;
   }
   main #hero nav .humburger {
     display: none;
   }
-  main #hero nav .nav-links {
-    display: inline-block;
-  }
-  main #hero nav .left-nav {
-    display: inline-block;
+  main #hero nav .right-nav {
+    width: 12%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -321,7 +340,7 @@ footer .list p {
     background-image: url(/images/bg/desktop-footer.png);
     background-size: cover;
     background-position: top;
-    height: 100vh;
+    height: 40vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -335,7 +354,6 @@ footer .list p {
         -ms-flex-align: center;
             align-items: center;
     padding: 0 4rem;
-    height: 50%;
   }
   footer .footer-img {
     margin: 0;

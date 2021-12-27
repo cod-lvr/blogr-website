@@ -20,16 +20,34 @@ main {
       .right-nav {
         display: none;
       }
-      @media (min-width: 1440px) {
-        justify-content: space-around;
+    }
+    @media (min-width: 1440px) {
+      nav {
+        .left-nav {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          .logo {
+            width: 80%;
+            cursor: pointer;
+            img {
+              width: 100%;
+            }
+          }
+          // .nav-links {
+          //   // display: flex;
+          //   // justify-content: space-around;
+          //   // align-items: center;
+          // }
+        }
         .humburger {
           display: none;
         }
-        .nav-links {
-          display: inline-block;
-        }
-        .left-nav {
-          display: inline-block;
+        .right-nav {
+          width: 12%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
         }
       }
     }
