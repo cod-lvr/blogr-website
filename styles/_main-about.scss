@@ -8,11 +8,11 @@ main {
       padding: 1rem 0;
     }
     @media (min-width: 1440px) {
-      height: 80vh;
+      height: 75vh;
       .title {
         font-size: 1.3rem;
         padding: 0;
-        margin-top: 20px;
+        margin-top: 50px;
       }
     }
   }
@@ -47,6 +47,7 @@ main {
     justify-content: space-around;
     align-items: center;
     height: 80vh;
+
     .content-boxs {
       width: 80%;
       padding: 0 4rem;

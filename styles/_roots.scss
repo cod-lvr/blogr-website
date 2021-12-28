@@ -5,6 +5,10 @@ body {
   font-size: $f-size;
   width: 100vw;
   font-family: $f-Overpass;
+  @media (min-width: 1440px) {
+    width: 100vw;
+    overflow-x: hidden;
+  }
 }
 
 .prim-btn {
